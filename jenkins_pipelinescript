@@ -12,7 +12,7 @@ pipeline {
         stage('SheduleApp_Test') {
             steps {
                 git 'https://github.com/prabnk/InfinityMMP'
-                dir('C:\\Users\\prabn\\git\\mmp1\\MyInfinitymmp')
+                dir('C:\\Users\\prabn\\git\\repository\\prabnk_infinitymmp')
                 {
                    bat 'mvn clean test'
                 }
